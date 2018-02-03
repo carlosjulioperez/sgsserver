@@ -1,0 +1,14 @@
+Maven
+	* Ejecutar servidor:
+		mvn clean spring-boot:run
+
+H2
+	* Base de datos:
+		http://localhost:8080/console
+		jdbc:h2:mem:testdb
+
+Eclim
+	* Ejecutar:
+		$ /home/carper/local/eclipse/java-oxygen/eclipse/eclimd
+
+		http://eclim.org/cheatsheet.html
