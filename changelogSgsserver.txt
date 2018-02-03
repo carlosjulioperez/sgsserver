@@ -9,6 +9,9 @@ H2
 
 Eclim
 	* Ejecutar:
-		$ /home/carper/local/eclipse/java-oxygen/eclipse/eclimd
+		$ curl -i -X GET http://localhost:8080/agenciaNavieras/1
 
 		http://eclim.org/cheatsheet.html
+
+Rest:
+	http://localhost:8080/agenciaNavieras
