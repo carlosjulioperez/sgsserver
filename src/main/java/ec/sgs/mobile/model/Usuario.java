@@ -11,17 +11,23 @@ import lombok.Data;
 @Data
 @Entity
 /**
- * AgenciaNaviera Entity
+ * Usuario Entity
  * @author carper CARLOS JULIO PEREZ QUIZHPE carlosjulioperez@gmail.com claro 099 3208265
- * 2018-feb-02
+ * 2018-feb-03
  */
-public class AgenciaNaviera{
+public class Usuario{
 
     @Id @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private long id;
 	
     @Column(length=100)
     private String nombre;
+    
+    @Column(length=30)
+    private String login;
+
+    @Column(length=30)
+    private String password;
 
 }
 

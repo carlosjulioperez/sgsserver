@@ -13,5 +13,10 @@ Eclim
 
 		http://eclim.org/cheatsheet.html
 
+		+ Para importar el proyecto en Eclipse por primera vez y usarlo en Eclim:
+		Importar STS en Eclipse Oxygen
+		ln -s ~/local/projects/sgs/sgsserver ~/local/projects/eclipse-workspace
+
 Rest:
 	http://localhost:8080/agenciaNavieras
+	http://localhost:8080/agenciaNavieras?sort
