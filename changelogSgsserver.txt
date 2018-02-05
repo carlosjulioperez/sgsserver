@@ -17,6 +17,12 @@ Eclim
 		Importar STS en Eclipse Oxygen
 		ln -s ~/local/projects/sgs/sgsserver ~/local/projects/eclipse-workspace
 
+	* celex:
+		historial academico o cartelera.
+		Ana María:
+		2269174 llamar para actualizar la malla de inglés 3 el viernes 5.
+		En semana y media se habilita examen ubicación inglés 4.
+
 Rest:
 	http://localhost:8080/agenciaNavieras
 	http://localhost:8080/agenciaNavieras?sort

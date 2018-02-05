@@ -5,6 +5,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+import java.util.List;
 
 import lombok.Data;
 
@@ -28,6 +31,9 @@ public class Usuario{
 
     @Column(length=30)
     private String password;
+
+    @OneToMany(mappedBy = "usuario")
+    private List<Inspeccion> inspecciones;
 
 }
 
